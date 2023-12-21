@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  -webkit-tap-highlight-color: transparent;
+}
+li {
+  list-style: none;
+}
+p {
+  width: 100%;
+  text-align: center;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00b7ff;
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.quiz {
+  width: 40%;
+  margin: auto;
+  height: fit-content;
+  background-color: white;
+  padding: 2rem 0;
+  border-radius: 10px;
+}
+.question {
+  font-size: 1.4rem;
+  /* text-align: justify; */
+  margin: 0 1.5rem 1rem;
+}
+.quiz ul {
+  /* width: fit-content; */
+  margin: 1.4rem 1.5rem;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.quiz ul li {
+  /* width: fit-content; */
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0;
+  border-radius: 50px;
+  border: 1px solid gray;
+  /* line-height: 20px; */
+  font-size: 1rem;
+  font-weight: 600;
+}
+.quiz ul li input[type="radio"] {
+  margin: 0.4rem 0;
+  width: 20%;
+  float: left;
+}
+.quiz ul li label {
+  float: right;
+  display: block;
+  width: 78%;
+  /* background-color: aquamarine; */
+}
+.btn {
+  margin: 1.4rem 1.5rem 0;
+}
+.btn button {
+  font-size: 1rem;
+  font-weight: 600;
+  border: 1px solid transparent;
+  background-color: #00b7ff;
+  color: white;
+  text-shadow: 1px 0 black, 0px 1px black, 1px 1px black, -1px 0 black,
+    0 -1px black, 0 0 5px black;
+  border-radius: 5px;
+  padding: 0.5rem 1.5rem;
+}
