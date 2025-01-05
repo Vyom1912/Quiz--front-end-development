@@ -1,6 +1,6 @@
 const quizData = [
   {
-    question: "What is color of sky?",
+    question: "What is color of sky where is no clouds?",
     options: ["Oreange", "Green", "Yellow", "Skyblue"],
     correct: 3,
   },
